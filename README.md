@@ -1,19 +1,28 @@
-# vue-crash-2021
+# Vue Crash Course (Task Tracker)
+
+> This is the project from the YouTube crash course
+> https://www.youtube.com/watch?v=qZXt1Aom3Cs
 
 ## Project setup
+
 ```
-yarn install
+npm install
 ```
 
-### Compiles and hot-reloads for development
+## Run the JSON-Server backend (http://localhost:5000)
+
 ```
-yarn serve
+npm run backend
 ```
 
-### Compiles and minifies for production
+## Run the Vue dev server (http://localhost:8080)
+
 ```
-yarn build
+npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Compiles and minifies for production
+
+```
+npm run build
+```
